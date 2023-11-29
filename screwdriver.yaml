@@ -1,6 +1,5 @@
 jobs:
-  build:
-    requires: [ ~commit, ~pr ]
-    image: cd.docker-registry.corp.yahoo.co.jp:4443/node/node16:latest
+  longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong:
+    image: node:18
     steps:
       - hello: echo "Hello World!"
