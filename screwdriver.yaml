@@ -1,5 +1,1 @@
-jobs:
-  longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong:
-    image: node:18
-    steps:
-      - hello: echo "Hello World!"
+template: ibu-test/template-publish-test
