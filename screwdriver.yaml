@@ -1,1 +1,9 @@
-template: ibu-test/template-publish-test@latest
+# template: ibu-test/template-publish-test@latest
+
+jobs:
+  publish:
+    image: node:20
+    requires: [ ~commit ]
+    steps:
+        - npm i -g screwdriver-template-main
+        - template-publish
