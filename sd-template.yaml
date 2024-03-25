@@ -1,5 +1,5 @@
 namespace: ibu-test
-name: test
+name: test-1
 version: '1.0'
 description: template for testing
 maintainer: test@example.com
