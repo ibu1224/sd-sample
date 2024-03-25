@@ -1,9 +1,1 @@
-# template: ibu-test/template-publish-test@latest
-
-jobs:
-  publish:
-    image: node:20
-    requires: [ ~commit ]
-    steps:
-      - install: npm install screwdriver-template-main
-      - publish: ./node_modules/.bin/template-publish --tag stable
+template: ibu-test/template-publish-test@latest
