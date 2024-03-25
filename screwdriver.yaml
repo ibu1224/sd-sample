@@ -5,5 +5,5 @@ jobs:
     image: node:20
     requires: [ ~commit ]
     steps:
-        - npm i -g screwdriver-template-main
-        - template-publish
+      - install: npm install screwdriver-template-main
+      - publish: ./node_modules/.bin/template-publish
