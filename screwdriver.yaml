@@ -6,4 +6,4 @@ jobs:
     requires: [ ~commit ]
     steps:
       - install: npm install screwdriver-template-main
-      - publish: ./node_modules/.bin/template-publish
+      - publish: ./node_modules/.bin/template-publish --tag stable
